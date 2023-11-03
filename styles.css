@@ -27,6 +27,7 @@
     justify-content: center;
     align-items: center;
     grid-template-columns: 0.2fr 1fr 1fr 1fr 0.2fr 1fr 1fr 1fr;
+    margin-left: 125px;
     width:100%;
     height:200px;
 }
@@ -37,7 +38,7 @@
 }
 
 #name_textbox {
-    grid-column:span 7;
+    grid-column:span 6;
 }
 
 #date_text {
@@ -45,6 +46,7 @@
 }
 
 #amount_text {
+    margin-left:-20px;
     grid-row:2;
     grid-column-start: 5;
 }
@@ -63,7 +65,7 @@
 #submit {
     grid-column: span 8;
     width:10%;
-    margin:0 auto;
+    margin:0 725px;
     height:50px;
     background-color:green;
     color:white;
@@ -73,8 +75,7 @@
     display:grid;
     align-items:center;
     text-align: left;
-    margin-top:50px;
-    width:100%;
+    margin:50px 50px 0 50px;
     grid-template-columns: 1.5fr 1.5fr 1.5fr 0.5fr;
 }
 
