@@ -89,3 +89,14 @@
 #submit:active {
     background-color:blue;
 }
+
+.table_input {
+    border:1px solid black;
+    border-top:0;
+    padding-left:20px;
+    margin-top:-2px;
+}
+
+#table input {
+    margin-top:-2px;
+}
