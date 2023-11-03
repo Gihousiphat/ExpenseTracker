@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+#header {
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    width:100%;
+    height:200px;
+}
+
+#main_heading {
+    font-size:1.5em;
+}
+
+#heading_statement {
+    color:red;
+    font-size:1.25em;
+}
+
+#user_input {
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 0.2fr 1fr 1fr 1fr 0.2fr 1fr 1fr 1fr;
+    width:100%;
+    height:200px;
+}
+
+#user_input div{
+    font-weight:bold;
+    font: 1.1em;
+}
+
+#name_textbox {
+    grid-column:span 7;
+}
+
+#date_text {
+    grid-row:2;
+}
+
+#amount_text {
+    grid-row:2;
+    grid-column-start: 5;
+}
+
+#date_box {
+    grid-row:2;
+    grid-column:span 2;
+}
+
+#amount_box {
+    grid-row:2;
+    grid-column-start: 6;
+    grid-column:span 2;
+}
+
+#submit {
+    grid-column: span 8;
+    width:10%;
+    margin:0 auto;
+    height:50px;
+    background-color:green;
+    color:white;
+}
+
+#table {
+    display:grid;
+    align-items:center;
+    text-align: left;
+    margin-top:50px;
+    width:100%;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr 0.5fr;
+}
+
+.table_values {
+    height:50px;
+    padding:15px 0 0 20px;
+    font-weight:bold;
+    border: 1px solid black;
+}
+
+#submit:active {
+    background-color:blue;
+}
